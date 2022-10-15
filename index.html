@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="shortcut icon"
+      href="data:image/jpeg;base64,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"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+  </head>
+  <body>
+    <!-- Loader section starts -->
+     
+    <div class="loaders">
+      <div class="lds-hourglass"></div>
+    </div>  
+
+    <!-- Loader section ends -->
+
+    <!-- Header Section stars -->
+
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="./Images/logo.png" alt="" />
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fa-solid fa-magnifying-glass" id="search-btn"></div>
+        <div class="fa-solid fa-shopping-cart" id="cart-btn"></div>
+        <div class="fa-solid fa-bars" id="menu-btn"></div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search-here...." />
+        <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-items">
+          <span class="fa-solid fa-times"></span>
+          <img src="./Images/cart-item-1.png" alt="" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-items">
+          <span class="fa-solid fa-times"></span>
+          <img src="./Images/cart-item-2.png" alt="" />
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-items">
+          <span class="fa-solid fa-times"></span>
+          <img src="./Images/cart-item-3.png" alt="" />
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-items">
+          <span class="fa-solid fa-times"></span>
+          <img src="./Images/cart-item-4.png" alt="" />
+          <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+   
+    <!-- Header section ends -->
+
+    <!-- Home Section starts -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>FRESH COFFEE IN THE MORNING.</h3>
+        <p>Coffee is a great drink</p>
+        <a href="#" class="btn">get yours now</a>
+      </div>
+    </section>
+
+    <!-- Home Section ends -->
+
+    <!-- About Section starts -->
+   
+     <section class="about" id="about">
+      <h1 class="heading"><span>about</span>us</h1>
+      <div class="row">
+        <div class="image">
+          <img src="./Images/about-img.jpeg" alt="">
+        </div>
+        <div class="content">
+          <h3>What Makes Our Coffee Specials?</h3>
+          <p>We sell these coffees at low price</p>
+          <p>We are very happy to sell these coffees</p>
+          <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+     </section>
+
+    <!-- About Section ends -->
+   
+   <!-- Menu section starts -->
+   
+    <section class="menu" id="menu">
+    <h1 class="heading">our<span>Menu</span></h1>
+     <div class="box-container">
+      <div class="box">
+        <img src="./Images/menu-1.png" alt="">
+        <h3>tasty and healthy</h3>
+        <div class="price">$15.99<span>20.99</span></div>
+        <a href="#" class="btn">add to cart</a>
+      </div>
+      <div class="box">
+        <img src="./Images/menu-2.png" alt="">
+        <h3>tasty and healthy</h3>
+        <div class="price">$15.99<span>20.99</span></div>
+        <a href="#" class="btn">add to cart</a>
+      </div>
+      <div class="box">
+        <img src="./Images/menu-3.png" alt="">
+        <h3>tasty and healthy</h3>
+        <div class="price">$15.99<span>20.99</span></div>
+        <a href="#" class="btn">add to cart</a>
+      </div>
+      <div class="box">
+        <img src="./Images/menu-4.png" alt="">
+        <h3>tasty and healthy</h3>
+        <div class="price">$15.99<span>20.99</span></div>
+        <a href="#" class="btn">add to cart</a>
+      </div>
+      <div class="box">
+        <img src="./Images/menu-5.png" alt="">
+        <h3>tasty and healthy</h3>
+        <div class="price">$15.99<span>20.99</span></div>
+        <a href="#" class="btn">add to cart</a>
+      </div>
+     </div>
+   </section>
+
+   <!-- Menu section ends -->
+   
+   <!-- Products section starts -->
+   
+    <section class="products" id="products">
+      <h1 class="heading">our<span>Products</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fa-solid fa-shopping-cart"></a>
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="fa-solid fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="./Images/product-1.png" alt="">
+          </div>
+          <div class="content">
+            <h3>fresh coffee</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-alt"></i>
+            </div>
+            <div class="price">$15.99<span>$20.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fa-solid fa-shopping-cart"></a>
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="fa-solid fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="./Images/product-2.png" alt="">
+          </div>
+          <div class="content">
+            <h3>fresh coffee</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-alt"></i>
+            </div>
+            <div class="price">$15.99<span>$20.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fa-solid fa-shopping-cart"></a>
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="fa-solid fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="./Images/product-3.png" alt="">
+          </div>
+          <div class="content">
+            <h3>fresh coffee</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-alt"></i>
+            </div>
+            <div class="price">$15.99<span>$20.99</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products section ends -->
+   
+    <!-- Review section stars -->
+
+    <section class="review" id="review">
+      <h1 class="heading">customer's<span>Review</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="./Images/quote-img.png" alt="">
+          <p>It's our best Customer</p>
+          <img src="./Images/pic-1.png" class="people" alt="">
+          <h3>john doe</h3>
+          <div class="stars">
+              <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+          <img src="./Images/quote-img.png" alt="">
+          <p>It's our best Customer</p>
+          <img src="./Images/pic-2.png" class="people" alt="">
+          <h3>john doe</h3>
+          <div class="stars">
+              <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+          <img src="./Images/quote-img.png" alt="">
+          <p>It's our best Customer</p>
+          <img src="./Images/pic-3.png" class="people" alt="">
+          <h3>john doe</h3>
+          <div class="stars">
+              <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-alt"></i>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review section ends -->
+
+    <!-- Contact section starts -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span>us</h1>
+      <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96048.56038447467!2d69.0659753625!3d41.2104915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae613ad3ca31bb%3A0x2d4441700d45b6ec!2sSergeli%209-hudud!5e0!3m2!1sru!2s!4v1664642497590!5m2!1sru!2s"loading= "lazy" referrerpolicy=""></iframe>
+        <form action="">
+          <h3>get in touch</h3>
+          <div class="inputBox">
+            <span class="fa-solid fa-user"></span>
+            <input type="text" placeholder="name">
+          </div>
+          <div class="inputBox">
+            <span class="fa-solid fa-envelope"></span>
+            <input type="email" placeholder="email">
+          </div>
+          <div class="inputBox">
+            <span class="fa-solid fa-phone"></span>
+            <input type="number" placeholder="number">
+          </div>
+          <input type="submit" value="contact now" class="btn">
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact section ends -->
+
+    <!-- Blog section starts -->
+
+    <section class="blogs" id="blogs">
+      <h1 class="heading">our<span>Blogs</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="./Images/blog-1.jpeg" alt="">
+          </div>
+          <div class="content">
+            <a href="#" class="title">tasty and refreshing coffee</a>
+            <span>by admin / 21st, 2021</span>
+            <p>these coffees are very tasty and pleasant</p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./Images/blog-2.jpeg" alt="">
+          </div>
+          <div class="content">
+            <a href="#" class="title">tasty and refreshing coffee</a>
+            <span>by admin / 21st, 2021</span>
+            <p>these coffees are very tasty and pleasant</p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./Images/blog-3.jpeg" alt="">
+          </div>
+          <div class="content">
+            <a href="#" class="title">tasty and refreshing coffee</a>
+            <span>by admin / 21st, 2021</span>
+            <p>these coffees are very tasty and pleasant</p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog section ends -->
+
+    <!-- Footer section starts -->
+  
+    <section class="footer">
+     <div class="share">
+      <a href="#" class="fa-brands fa-facebook"></a>
+      <a href="#" class="fa-brands fa-twitter"></a>
+      <a href="#" class="fa-brands fa-instagram"></a>
+      <a href="#" class="fa-brands fa-linkedin"></a>
+      <a href="#" class="fa-brands fa-pinterest"></a>
+     </div>
+     <div class="links">
+      <a href="#">home</a>
+      <a href="#">about</a>
+      <a href="#">menu</a>
+      <a href="#">products</a>
+      <a href="#">review</a>
+      <a href="#">contact</a>
+      <a href="#">blogs</a>
+     </div>
+     <div class="credit"> created by <span> mr. web-developer Sunnatilla Majitov </span> | all rights reserved </div>
+    </section>
+
+    <!-- Footer section ends -->
+
+    <script src="./app.js"></script>
+  </body>
+</html>
